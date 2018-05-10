@@ -1,0 +1,5 @@
+par(mfrow = c(3,1))
+ts.plot(aCTE,xlab="time", ylab="飛砂数(個)",main ="CTE")
+ts.plot(bCTE,xlab="time", ylab="風速(m/s)")
+ts.plot(bCTEd,xlab="time", ylab="風向(degree)")
+abline(h = 180 )

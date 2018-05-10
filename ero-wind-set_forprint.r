@@ -1,5 +1,0 @@
-par(mfrow = c(3,1))
-ts.plot(aCTE,xlab="time", ylab="”ò»”(ŒÂ)",main ="CTE")
-ts.plot(bCTE,xlab="time", ylab="•—‘¬(m/s)")
-ts.plot(bCTEd,xlab="time", ylab="•—Œü(degree)")
-abline(h = 180 )
